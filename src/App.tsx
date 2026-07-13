@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import type { RefObject, ReactNode, CSSProperties } from "react";
-import { Menu, X, ArrowUpRight, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 
 function Instagram({ size = 24 }: { size?: number }) {
@@ -80,7 +80,6 @@ const NAV_LINKS = [
   { label: "Causes", href: "#causes" },
   { label: "Connect", href: "#contact" },
 ];
-
 const VENTURES = [
   {
     name: "Quark Creation",
@@ -108,32 +107,8 @@ const VENTURES = [
   },
 ];
 
-const TIMELINE_EVENTS = [
-  {
-    year: "THE ROOTS",
-    title: "Mountain Origins",
-    subtitle: "Taplejung, Eastern Nepal",
-    desc: "Born and raised in the high hills of Taplejung. Growing up with minimal access to modern tech, but a deep curiosity for computing, code, and digital visual art.",
-  },
-  {
-    year: "THE SHIFT",
-    title: "Computer Science & Tech",
-    subtitle: "Tribhuvan University (IOST)",
-    desc: "Relocating to Kathmandu to study a Bachelor's in CSIT. Finding the junction where software engineering principles meet design systems and visual architectures.",
-  },
-  {
-    year: "THE SPARK",
-    title: "Self-Taught Beginnings",
-    subtitle: "Freelancing Era",
-    desc: "Diving deep into long-form video production, editing layouts, and thumbnail design. Learning standard industry toolsets and partnering directly with initial clients globally.",
-  },
-  {
-    year: "THE VENTURE",
-    title: "Founding Quark Creation",
-    subtitle: "Bootstrapping a Remote Agency",
-    desc: "Transitioning from individual freelancing to running a remote content agency. Coordinating a team of professional video editors and designers to deliver premium branding assets.",
-  },
-];
+
+
 
 function useOnScreen(ref: RefObject<HTMLElement | null>) {
   const [visible, setVisible] = useState(false);
