@@ -80,32 +80,7 @@ const NAV_LINKS = [
   { label: "Causes", href: "#causes" },
   { label: "Connect", href: "#contact" },
 ];
-const VENTURES = [
-  {
-    name: "Quark Creation",
-    role: "Founder & Owner",
-    status: "Active",
-    desc: "A bootstrapped content agency coordinating a remote team of professional video editors and designers, delivering visual brand assets to digital creators internationally.",
-    tag: "AGENCY DIVISION",
-    link: "#story",
-  },
-  {
-    name: "CSIT (TU)",
-    role: "Undergrad Student",
-    status: "Ongoing",
-    desc: "Pursuing a Bachelor's degree in Computer Science and Information Technology, exploring software architecture, web development, and digital systems.",
-    tag: "ACADEMICS",
-    link: "#story",
-  },
-  {
-    name: "Creative Labs",
-    role: "Creative Director",
-    status: "Active",
-    desc: "Designing minimalist web interfaces, typography frameworks, and custom identity aesthetics for creators carving out their own digital spaces.",
-    tag: "VENTURES",
-    link: "#causes",
-  },
-];
+
 
 
 
